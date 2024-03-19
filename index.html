@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive WebSite</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .main{
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height:100vh;
+    }
+    h1{
+        width: fit-content;
+        background-color: white;
+        color:black;
+        font-size: 3rem;
+        padding: 0.2em 1em;
+    }
+    @media screen and (min-width:480px) {
+        img{
+            width:50%;
+        }
+    }
+    @media screen and (max-width:480px) {
+        img{
+            width:100%;
+        }
+    }
+    i{
+        font-size: 1rem;
+        font-style: oblique;
+        color: rgb(80, 76, 76);
+    }
+   @media screen and (min-width:480px) {
+    .cont{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        padding: 1em;
+    }
+   }
+   @media screen and (max-width:480px) {
+    .cont{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding: 1em;
+    }
+   }
+
+</style>
+<body>
+    <div class="main">
+        <h1>Nature App</h1>
+        <hr>
+        <div class="cont">
+        <img src="./nature.jpg" alt="Nature_image">
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, harum cupiditate molestias enim, quis exercitationem illo quos repudiandae a aperiam quae? Alias, laboriosam, facilis nihil dolorum distinctio odio ipsum in quo qui necessitatibus ipsa. Hic, velit qui? Enim error iure illum animi autem? Aspernatur id rerum ad nisi, quasi ipsa sit rem possimus fugit voluptatibus suscipit hic corrupti iure soluta assumenda vero, dignissimos error amet et delectus. Consequuntur atque enim nemo asperiores. Voluptas necessitatibus iste, cupiditate illo quam aliquam nemo nostrum quas accusamus, quis repudiandae sapiente, quisquam laborum! Autem quam ullam magni sapiente officiis aut expedita temporibus ut alias nam?</i>
+    </div>
+    </div>
+</body>
+</html>
